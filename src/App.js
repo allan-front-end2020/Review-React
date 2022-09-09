@@ -28,14 +28,17 @@ function App() {
       nome='Allan tavares'
       idade='32' 
       profissao='Analista de sistema Jr'
-     
      />
-    <hr/>
-    <h1>Fragment- React</h1>
-    <List />
-    <hr/>
-    <h1> Avançando com Props</h1>
-    <List />
+
+       <hr/>
+       <h1>Avançando com o props</h1>
+       
+        <List />
+        <hr/>
+        
+        <h1> onClick - onChange - onSubmit</h1>
+       
+   
 
 
    

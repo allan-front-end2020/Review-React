@@ -10,7 +10,8 @@ import Itens from "./Itens"
             <Itens marca='Renault clio' lancamento={2008}/>
             <Itens marca='Gol' lancamento={2018}/>
             <Itens marca='Kadett' lancamento={2001}/>
-          
+             <h3>Default Props</h3>
+             <Itens />
           </ul>
         </>
       )

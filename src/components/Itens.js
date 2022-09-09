@@ -1,6 +1,6 @@
-import PropTyoes from 'prop-types'
+import PropTypes from "prop-types"
 
-function Itens ( marca , lancamento){
+function Itens ({marca , lancamento}){
     return(
 
         <>
@@ -11,4 +11,12 @@ function Itens ( marca , lancamento){
     )
 }
 
+Itens.propsTypes ={
+    marca: PropTypes.string.isRequired,
+    lancamento: PropTypes.number.isRequired,
+}
+ Itens.defaultProps={
+    marca:' faltou a marca',
+    lancamento: 0,
+ }
 export default Itens
