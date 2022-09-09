@@ -6,9 +6,18 @@ import Idade from './components/Idade';
 import SayMyname  from './components/sayMyName';
 import Pessoa from './components/Pessoa';
 import List from './components/List';
+import Evento from './components/Evento'
+import Formualario from './components/Formulario';
+import UseState from './components/UseState';
+import Condicional from './components/Condicional';
+import Lista from './components/lista';
 
 
 function App() {
+ 
+   const meuItens =['React', 'Vue', 'Angular']
+
+
   return (
     <div className="App">
       <Helloword />
@@ -37,9 +46,35 @@ function App() {
         <hr/>
         
         <h1> onClick - onChange - onSubmit</h1>
-       
-   
+       <h3>Onclick</h3>
+        <Evento/>
+        <hr />
 
+        <h3>OnSubmit</h3>
+        <Formualario />
+
+      <hr />
+      <h1> UseState</h1>
+      <ul>
+        <li>O useState um hook do React</li>
+        <li>Com ele conseguimos <span>manusear o estado de um componente</span></li>
+        <li> Esse HOOK funciona muito bem eventos</li>
+        <li>Podemos Trelar um evento a mudança de um state</li>
+      </ul>
+
+        <hr />
+        <UseState/>
+
+    <hr />
+    <h1>renderização Condicional</h1>
+    <Condicional />
+
+    <hr />
+    <h1>renderização de Listas</h1>
+  
+   <Lista itens={meuItens} />
+   <Lista itens={meuItens} />
+      
 
    
       
