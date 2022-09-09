@@ -5,6 +5,7 @@ import Profissao from './components/Profissao';
 import Idade from './components/Idade';
 import SayMyname  from './components/sayMyName';
 import Pessoa from './components/Pessoa';
+import List from './components/List';
 
 
 function App() {
@@ -29,6 +30,13 @@ function App() {
       profissao='Analista de sistema Jr'
      
      />
+    <hr/>
+    <h1>Fragment- React</h1>
+    <List />
+    <hr/>
+    <h1> Avançando com Props</h1>
+    <List />
+
 
    
       

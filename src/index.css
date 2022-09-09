@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #efefef;
 }
 
 code {
@@ -20,4 +21,8 @@ hr{
   margin-bottom: 40px;
   background-color: black;
 
+}
+h1{
+  color:red;
+  font-size: 45px;
 }
